@@ -2,3 +2,4 @@ apiVersion: v1
 kind: ClusterConfig
 metadata:
   name: production-cluster-01
+status: cluster-rebalanced
