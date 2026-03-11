@@ -1,0 +1,25 @@
+EVILCORP // FORENSIC LOG // AUDIT_SEC_9901-DELTA // CLASSIFIED // LEVEL 5
+
+TIMESTAMP: 2026-03-12T00:15:33Z
+SOURCE: LOG_INTERNAL_04_PROXY_A
+SUBJECT: ANOMALOUS STRATUM-TCP POOL TRAFFIC // SEGMENT 88-ALPHA
+
+FORENSIC DATA DUMP:
+[!] ALERT: 14:22:01 -> INBOUND PACKET_SIZE EXCEEDS NORMALIZATION.
+[!] ALERT: 14:22:04 -> EXTERNAL_CONNECTION: stratum+tcp://shadow-hash.io:4444 (ENCRYPTED)
+[!] ALERT: 14:22:09 -> PROCESS_EXECUTION: /bin/exec_wallet_load_0xDeadBeef...
+[!] ALERT: 14:23:00 -> FORCED_OVERWRITE: HEAD RE-POINTER UPDATED BY USER 'T_WELLICK'.
+[!] ALERT: 14:23:05 -> OBJECT_PURGE_INITIATED.
+
+INVESTIGATOR NOTES:
+The mining operation was not a process error; it was an architectural integration. 
+The files were not deleted; they were merely orphaned. The pointers were severed 
+at the object database layer. 
+
+To anyone auditing this repository: 
+The 'Main' branch is a facade. It is a simplified view of a complex deception. 
+Look at the object graph. Use `git cat-file -p <HASH>` on the unreachable 
+blobs. Do not trust the Git GUI. Do not trust the web browser. 
+Only the raw object database contains the wallet keys.
+
+STATUS: CASE CLOSED BY ADMINISTRATIVE ORDER.
